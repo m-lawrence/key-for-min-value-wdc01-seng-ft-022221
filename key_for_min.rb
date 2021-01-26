@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   smalls = 1,000,000
   name_hash.each do |key, value|
-    if value < smalls
+    if value.is_a?(Integer) && value < smalls
       smalls = key
   end
 end
