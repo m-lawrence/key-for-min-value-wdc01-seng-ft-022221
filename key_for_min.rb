@@ -7,11 +7,11 @@
   #name_hash.each do |key, value|
     #if key[value].class == Integer && key[value] < smalls
      # smalls = value
-     # lil_key = key
+      #lil_key = key
   #end
-end
+#end
   lil_key
-end
+#end
 
 def key_for_min_value(name_hash)
   value_to_compare = 100000000
